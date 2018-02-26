@@ -1749,6 +1749,18 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     display: table;
 }
 
+#home .s-home .target-section {
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
+.responsive {
+    width: 100%;
+    height: auto;
+    margin-top: 150px;
+}
+
 .s-home .shadow-overlay {
     position: absolute;
     top: 0;
@@ -1797,7 +1809,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     text-transform: uppercase;
     letter-spacing: .3rem;
     position: relative;
-    margin-top: 0;
+    margin-top: -17px;
     margin-bottom: 1.2rem;
     margin-left: 6px;
 }
@@ -1806,7 +1818,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     font-family: "montserrat-medium", sans-serif;
     font-size: 6.3rem;
     line-height: 1.333;
-    margin-top: 0;
+    margin-top: 108px;
     color: #FFFFFF;
 }
 
@@ -1821,7 +1833,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__buttons .btn {
-    width: 215px;
+    width: 215px;auto
     border-color: #FFFFFF;
     color: #FFFFFF;
     margin: 1.5rem 1.5rem 0 0;
@@ -1841,12 +1853,12 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll {
-    position: absolute;
+    position: absolute;auto
     right: 9.5rem;
     bottom: 8.4rem;
 }
 
-.home-content__scroll a {
+.home-content__scroll a {auto
     font-family: "montserrat-semibold", sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
@@ -2216,6 +2228,16 @@ html.no-csstransitions .home-content__main {
     max-width: 1024px;
 }
 
+.criteres1 {
+  font-family: "montserrat", sans-serif;
+  font-size: 17px;
+}
+
+.criteres2 {
+  font-family: "montserrat", sans-serif;
+  text-align: justify;
+  font-size: 15px;
+}
 
 /* -------------------------------------------------------------------
  * ## about stats
@@ -2266,6 +2288,7 @@ html.no-csstransitions .home-content__main {
     right: 7.2rem;
     top: 0;
 }
+
 
 
 /* -------------------------------------------------------------------
@@ -3363,6 +3386,21 @@ footer .row {
 /* ---------------------------------------------------------------
  * ## footer main
  * --------------------------------------------------------------- */
+ .map-responsive {
+ overflow:hidden;
+ padding-bottom:56.25%;
+ position:relative;>
+ height:0;
+ }
+
+ .map-responsive iframe {
+ left:0;
+ top:0;
+ height:100%;
+ width:100%;
+ position:absolute;
+ }
+
 .footer-main {
     text-align: left;
 }
