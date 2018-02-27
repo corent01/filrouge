@@ -1853,7 +1853,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .home-content__scroll {
-    position: absolute;auto
+    position: absolute; auto;
     right: 9.5rem;
     bottom: 8.4rem;
 }
@@ -2521,9 +2521,10 @@ html.no-csstransitions .home-content__main {
     position: relative;
 }
 
-.s-works .intro-wrap {
-    padding: 15rem 0 25.2rem;
+.intro-wrap h3 {
+    /* padding: 15rem 0 25.2rem; */
     background: #111111;
+    color: rgb(255, 255, 255)!important;
 }
 
 .works-content {
@@ -2531,6 +2532,12 @@ html.no-csstransitions .home-content__main {
     margin-top: -23.4rem;
 }
 
+#mons75 {
+  display: block;
+  margin: auto;
+  padding-right: 100px;
+
+}
 
 /* -------------------------------------------------------------------
  * ## bricks/masonry
