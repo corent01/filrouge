@@ -6,7 +6,9 @@
 <!--<![endif]-->
 
 <head>
-
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <!--- basic page needs
     ================================================== -->
   <meta charset="utf-8">
@@ -62,6 +64,7 @@
           <li><a class="smoothscroll" href="#works" title="works">Nous aider</a></li>
           <li><a class="smoothscroll" href="#clients" title="clients">Liens</a></li>
           <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
+          <li><a class="smoothscroll" href="#reunions" title="reunions">Réunions</a></li>
         </ul>
 
         <!-- <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p> -->
@@ -225,6 +228,7 @@
       <small>En date du 1/1/2018, le Rotary International réunit
             35.727 clubs et 1.220.188 Rotariens à travers le monde,
             277 clubs et 10.571 Rotariens en Belgique et Luxembourg.</small>
+      <img id="fanion" src="images/fanion.png" alt="">
 
     </div>
     <!-- end about-stats -->
@@ -239,6 +243,7 @@
   <section id='services' class="s-services">
 
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
+      <img id="entete" src="images/entete.png" alt="">
       <div class="col-full">
         <h3 class="subhead">Nos Actions</h3>
         <h3 class="display-4">Nous désirons apporter notre soutien aux communautés locales défavorisées, avec un accent particulier sur les jeunes, mais aussi à des situations critiques à l'étranger, notamment dans des pays d'Asie, Afrique ou Amérique latine. Nous reprenons ci-dessous quelques actions récentes.</h3>
@@ -269,7 +274,7 @@
 
           <h3 class="h2">Paix et prévention / résolution des conflits</h3>
           <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis. Sunt suscipit voluptas ipsa in tempora esse soluta sint.</p>
-          </p>
+        </p>
         </div>
       </div>
 
@@ -388,7 +393,7 @@
 
   <!-- works
     ================================================== -->
-  <section id='' class="">
+  <section id='works' class="">
 
     <div class="intro-wrap">
 
@@ -414,13 +419,94 @@
   </section>
   <!-- end s-works -->
 
+  <section id="organisation">
+
+      <div class="container">
+      <h3 class="organisation">Organisation du Rotary de Mons</h3>
+      <!-- Trigger the modal with a button -->
+      <button type="button" id="organisation" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Voir L'organisation</button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title">Organisation</h4>
+            </div>
+            <div class="modal-body">
+              <p>
+            <h2>Comité 2017-2018</h2>
+            <table>
+                <thead>
+                <tr><th>Fonction</th><th>Nom</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>Président</td><td>Jean-Marc Michiels</td></tr>
+                <tr><td>Président élu</td><td>Didier Malaise</td></tr>
+                <tr><td>Président sortant</td><td>Etienne Gilbart</td></tr>
+                <tr><td>Vice-président</td><td>Etienne Gilbart</td></tr>
+                <tr><td>Trésorier</td><td>Etienne Moureau</td></tr>
+                <tr><td>Trésorier adjoint</td><td>Richard Thiry</td></tr>
+                <tr><td>Secretaire</td><td>Marc Rochet</td></tr>
+                <tr><td>Secretaire adjoint</td><td>Alain Wuilbaut</td></tr>
+                <tr><td>Protocole</td><td>Alain Gueur</td></tr>
+                <tr><td>Protocole adjoint</td><td>Emmanuel Jaunart</td></tr>
+                </tbody>
+            </table>
+            <h2>Commissions 2017-2018</h2>
+            <table>
+                <thead>
+                <tr><th>Fonction</th><th>Nom</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>Communications</td><td>Alain Wuilbaut</td></tr>
+                <tr><td>Effectif</td><td>Didier Malaise</td></tr>
+                <tr><td>Action internationale</td><td>Fernand Lamproye</td></tr>
+                <tr><td>Action professionnelle</td><td>Michel L'Hoir</td></tr>
+                <tr><td>Nouvelles générations</td><td>Pierre Wélis</td></tr>
+                <tr><td>Fondation Rotary</td><td>Etienne Moureau</td></tr>
+                <tr><td>Commission culturelle</td><td>Jean Lenoir</td></tr>
+                </tbody>
+            </table>
+            <h2>Nos 10 derniers présidents</h2>
+            <table>
+              <thead><tr><th>Année</th><th>Nom</th></tr></thead>
+                <tbody>
+                <tr><td>2016-2017</td><td>Etienne Gilbart</td></tr>
+                <tr><td>2015-2016</td><td>Etienne Gilbart</td></tr>
+                <tr><td>2014-2015</td><td>Didier Hazard</td></tr>
+                <tr><td>2013-2014</td><td>Freddy Louvet</td></tr>
+                <tr><td>2012-2013</td><td>Alain Gueur</td></tr>
+                <tr><td>2011-2012</td><td>Philippe Mutsaarts</td></tr>
+                <tr><td>2010-2011</td><td>Pascal Loiselet</td></tr>
+                <tr><td>2009-2010</td><td>Etienne Moureau</td></tr>
+                <tr><td>2008-2009</td><td>Fernand Lamproye</td></tr>
+                <tr><td>2007-2008</td><td>Alain Wuilbaut</td></tr>
+                </tbody>
+            </table></p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+  </section>
 
   <!-- clients
     ================================================== -->
-  <section id="clients" class="s-clients">
+
+  <section id="clients" class="s-clients" >
+
+
+    <img id="beffroid" src="images/befroid.png" alt="">
 
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
+
         <h3 class="subhead">Liens</h3>
         <p>Sous le parrainage de notre club, un club Rotaract a été créé à Mons le 28 septembre 2013. <br><a href="https://www.facebook.com/rotaract.mons.be?fref=ts" target="_blank">Page facebook</a></p>
         <p> Un club Rotaract est un club service parrainé par le Rotary, destiné aux jeunes de 18 à 30 ans. Les clubs Rotaract sont implantés dans la collectivité ou rattachés à une université. Ils sont par conséquent de véritables «partenaires dans le service»
@@ -456,7 +542,6 @@
         <p>Autres Rotary Clubs</P>
         <p>Vous pouvez trouver lieux et jours de réunion d'autres clubs avec la <a href="http://www.rotary.org/fr/search/club-finder" target="_blank">"recherche de clubs"</a>.</P>
         <p>Attention, certaines données ne sont pas à jour!</P>
-    </div>
     </div>
     <!-- end client-testimonials -->
 
@@ -635,8 +720,8 @@
 
       <div class="col-twelve">
         <div class="copyright">
-          <span>© Copyright Glint 2017 Arranged by Corentin W.</span>
-          <span>Site Template by <a href="https://www.colorlib.com/"target="_blank">Colorlib</a></span>
+          <span>© Copyright Glint 2017  <a href="https://www.colorlib.com/"target="_blank"> Colorlib</a></span> Arranged by <a href="https://github.com/corent01"target="_blank"> Corentin W.</a> @ <a href="https://www.becode.org/"target="_blank"> BeCode-Brussels</a></span>
+
         </div>
 
         <div class="go-top">
