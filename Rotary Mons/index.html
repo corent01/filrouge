@@ -36,6 +36,8 @@
   <link rel="shortcut icon" href="./favicon2.ico" type="image/x-icon">
   <link rel="icon" href="./favicon2.ico" type="image/x-icon">
 
+
+
 </head>
 
 <body id="top">
@@ -60,9 +62,9 @@
         <ul class="header-nav__list">
           <li class="current"><a class="smoothscroll" href="#home" title="home">Bienvenue</a></li>
           <li><a class="smoothscroll" href="#about" title="about">Qui nous sommes</a></li>
-          <li><a class="smoothscroll" href="#services" title="services">Actions</a></li>
-          <li><a class="smoothscroll" href="#works" title="works">Nous aider</a></li>
-          <li><a class="smoothscroll" href="#clients" title="clients">Liens</a></li>
+          <li><a class="smoothscroll" href="#services" title="action">Actions</a></li>
+          <li><a class="smoothscroll" href="#works" title="nous aider">Nous aider</a></li>
+          <li><a class="smoothscroll" href="#clients" title="liens">Liens</a></li>
           <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
           <li><a class="smoothscroll" href="#reunions" title="reunions">Réunions</a></li>
         </ul>
@@ -86,6 +88,16 @@
 
       </div>
       <!-- end header-nav__content -->
+    <div class="bLogin">
+      <form class="bLogin" action="../login/login.php">
+        <input  id="inBuLogin" type="submit" value="Login" />
+      </form>
+    </div>
+    <div class="bAdminLogin">
+      <form class="bAdminLogin" action="../login/admin_login.php">
+        <input  id="inBuAdminLogin" type="submit" value="Admin" />
+      </form>
+    </div>
 
     </nav>
     <!-- end header-nav -->
@@ -97,6 +109,8 @@
 
   </header>
   <!-- end s-header -->
+
+
 
 
   <!-- home
@@ -238,7 +252,7 @@
   </section>
   <!-- end s-about -->
 
-  <!-- services
+  <!-- Actions
     ================================================== -->
   <section id='services' class="s-services">
 
@@ -329,6 +343,72 @@
       </div>
     </div>
 
+
+
+
+  <div class="row section-header has-bottom-sep" data-aos="fade-up">
+    <div class="col-full">
+      <h3 class="subhead">Nos actions locales</h3>
+    </div>
+  </div>
+  <!-- end section-header -->
+
+  <div class="row services-list block-1-2 block-tab-full">
+
+    <div class="col-block service-item" data-aos="fade-up">
+
+      <div class="service-text">
+
+        <h3 class="h2">AU PROFIT DES PERSONNES HANDICAPEES</h3>
+        <p>A l'occasion du 75ème anniversaire de la fondation du club, nous avons financé la réalisation d'une sculpture représentant le beffroi de Mons et ses abords, pour permettre à des touristes handicapés visuels de découvrir par le toucher ce bâtiment remarquable, chef d'oeuvre classé au patrimoine mondial par l'UNESCO. Cette sculpture est installée dans le parc du Beffroi, devant l'entrée du beffroi.
+        <br>Nous soutenons aussi chaque année les actions menées par l'ANAH (Association Nationale d'Aide aux Personnes Handicapées). <a href="http://www.anah-nvsg.org/fr">Pour en savoir plus</a>
+        </p>
+
+      </div>
+    </div>
+
+    <div class="col-block service-item" data-aos="fade-up">
+
+      <div class="service-text">
+
+        <h3 class="h2"></h3>
+        <p><img src="images/maquette beffroi.png" alt="" id="photobeffroi">
+        Maquette du beffroi et son contexte
+        </p>
+      </div>
+    </div>
+
+    <div class="col-block service-item" data-aos="fade-up">
+
+      <div class="service-text">
+
+        <h3 class="h2">AU PROFIT DES JEUNES DEFAVORISES</h3>
+        <p>Nous organisons pour des jeunes relevant d'institutions d'aide à l'enfance des activités :
+
+          <br>-Sensibilisation à la nature et à la culture
+          <br>-Initiations sportives
+          <br>-Organiser l'accès et accompagner à des manifestations sportives: matchs de basket et de tennis
+          <br>Nous avons soutenu une institution publique d'aide à l'Enfance, une Entreprise de Formation par le Travail.
+        </p>
+      </div>
+    </div>
+
+    <div class="col-block service-item" data-aos="fade-up">
+
+      <div class="service-text">
+
+        <h3 class="h2">POUR DES ETUDIANTS</h3>
+        <p>Visite d'entreprise avec mise en contact avec ses responsables.
+          <br>Bourses (voir ci-dessous)
+        </p>
+
+        <h3 class="h2">AU PROFIT DE PERSONNES DEMUNIES</h3>
+        <p>Soutien à des initiatives d'aide aux personnes démunies
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- end services-list -->
     <div class="row section-header has-bottom-sep" data-aos="fade-up">
       <div class="col-full">
         <h4 class="subhead">Bourses d'études</h4>
@@ -383,10 +463,6 @@
           <p></p>
         </div>
       </div>
-
-    </div>
-    <!-- end services-list -->
-
   </section>
   <!-- end s-services -->
 
@@ -502,7 +578,7 @@
   <section id="clients" class="s-clients" >
 
 
-    <img id="beffroid" src="images/befroid.png" alt="">
+    <img id="beffroid" src="images/befroid2.png" alt="">
 
     <div class="row section-header" data-aos="fade-up">
       <div class="col-full">
@@ -777,7 +853,7 @@
 
   <!-- preloader
     ================================================== -->
-  <!-- <div id="preloader">
+  <div id="preloader">
         <div id="loader">
             <div class="line-scale-pulse-out">
                 <div></div>
@@ -787,7 +863,26 @@
                 <div></div>
             </div>
         </div>
-    </div> -->
+    </div>
+
+<!-- Login
+  =================================================== -->
+  <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+    	  <div class="modal-dialog">
+				<div class="loginmodal-container">
+					<h1>Login to Your Account</h1><br>
+				  <form>
+					<input type="text" name="user" placeholder="Username">
+					<input type="password" name="pass" placeholder="Password">
+					<input type="submit" name="login" class="login loginmodal-submit" value="Login">
+				  </form>
+
+				  <div class="login-help">
+					<a href="#">Register</a> - <a href="#">Forgot Password</a>
+				  </div>
+				</div>
+			</div>
+		  </div>
 
 
   <!-- Java Script
@@ -795,6 +890,8 @@
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
+  <script src="http://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+  <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 
 </body>
 
