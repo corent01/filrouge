@@ -44,7 +44,7 @@
 <footer>
 
   <div class="bHome">
-    <form class="bHome" action="../index.html">
+    <form class="bHome" action="../index.php">
       <input class="btn btn-lg btn-warning btn-block" id="inBuHome" type="submit" value="Home" />
     </form>
   </div>

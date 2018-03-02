@@ -31,7 +31,7 @@ if(!$_SESSION['email'])
   <header class="s-header">
 
     <div class="header-logo">
-      <a class="site-logo" href="../index.html" ><img src="../images/logo.png" alt="Homepage"><span class="entete">Espace Membres</span></a>
+      <a class="site-logo" href="../index.php" ><img src="../images/logo.png" alt="Homepage"><span class="entete">Espace Membres</span></a>
 
     </div>
 

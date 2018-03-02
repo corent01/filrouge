@@ -21,7 +21,7 @@ session_start();
       <nav class="header-nav">
         <div class="header-nav__content">
           <div class="bHome">
-            <form class="viewMem" action="../index.html">
+            <form class="viewMem" action="../index.php">
               <input class="btn btn-lg btn-block" id="inBuHome2" type="submit" value="Site du Rotary" />
             </form>
           </div>
