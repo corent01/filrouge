@@ -9,56 +9,14 @@ session_start();//session starts here
 <head lang="en">
     <meta charset="UTF-8">
     <link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap.css">
+    <link rel="stylesheet" href="./loginstyle.css">
     <title>Rotary Login Members</title>
+    <!-- favicons
+      ================================================== -->
+    <link rel="shortcut icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
 </head>
-<style>
-    .login-panel {
-        margin-top: 150px;
-        }
-
-    body {
-        background-image: url("../Rotary Mons/district-5730-home-page-animated-clip-art-rotary-wheel-clip-art-30rotary-wheel-clip-art-hight-resulation.png.jpeg");
-        background-repeat: no-repeat;
-        background-color: black;
-        background-size: 228px;
-        background-position: bottom 180px right 392px;
-      }
-      @media screen and (max-width: 400px) {
-        body {
-          background-size: 140px;
-          background-position: bottom 409px right 112px;
-        }
-      }
-      footer{
-        margin-top: 100px;
-      }
-      .login-panel{
-        border-color: #F7A81B !important;
-      }
-      .panel-heading{
-        background-color: #F7A81B !important;
-      }
-      #inBuAdminLogin {
-        width: 100px;
-        background-color: black !important;
-        border: 1px solid #F7A81B !important;
-      }
-      #inBuHome {
-        display: block;
-        float: right;
-        width: 100px;
-        background-color: black !important;
-        border: 1px solid #F7A81B !important;
-      }
-      #inBuEntree {
-        background-color: white !important;
-        border: 3px solid #F7A81B !important;
-        color: black;
-      }
-
-</style>
-
-<body>
+<body id="memLogin">
 
 
 <div class="container">
@@ -75,7 +33,7 @@ session_start();//session starts here
                                 <input class="form-control" placeholder="E-mail" name="email" type="email" autofocus>
                             </div>
                             <div class="form-group">
-                                <input class="form-control" placeholder="Password" name="pass" type="password" value="">
+                                <input class="form-control" placeholder="Mot de passe" name="pass" type="password" value="">
                             </div>
 
 
