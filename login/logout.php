@@ -2,5 +2,5 @@
 
 session_start();
 session_destroy();
-header("Location: ..//Rotary Mons/index.html");
+header("Location: ../index.html");
 ?>

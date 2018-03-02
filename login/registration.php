@@ -7,8 +7,8 @@
     <title>Rotary ADMIN-NouveauxMembres</title>
     <!-- favicons
       ================================================== -->
-    <link rel="shortcut icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="..favicon2.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -47,12 +47,12 @@
 <footer>
 
   <div class="bHome">
-    <form class="bHome" action="../Rotary Mons/index.html">
+    <form class="bHome" action="../index.html">
       <input class="btn btn-lg btn-warning btn-block" id="inBuHome" type="submit" value="Home" />
     </form>
   </div>
   <div class="bAdminLogin">
-    <form class="bAdminLogin" action="../login/admin_login.php">
+    <form class="bAdminLogin" action="admin_login.php">
       <input class="btn btn-lg btn-warning btn-block" id="inBuAdminLogin" type="submit" value="Admin" />
     </form>
   </div>

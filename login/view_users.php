@@ -10,8 +10,8 @@ session_start();
     <title>Rotary ADMIN-View Users</title>
     <!-- favicons
       ================================================== -->
-    <link rel="shortcut icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
 
 </head>
 <body>
@@ -21,25 +21,25 @@ session_start();
       <nav class="header-nav">
         <div class="header-nav__content">
           <div class="bHome">
-            <form class="viewMem" action="../Rotary Mons/index.html">
+            <form class="viewMem" action="../index.html">
               <input class="btn btn-lg btn-block" id="inBuHome2" type="submit" value="Site du Rotary" />
             </form>
           </div>
 
           <div class="bRegistr">
-            <form class="viewMem" action="../login/registration.php">
+            <form class="viewMem" action="registration.php">
               <input class="btn btn-lg btn-block" id="inBuRegistr" type="submit" value="Nouveau Membre" />
             </form>
           </div>
 
           <div class="bMembre">
-            <form class="viewMem" action="../login/welcome.php">
+            <form class="viewMem" action="welcome.php">
               <input class="btn btn-lg btn-block" id="inBuMem" type="submit" value="Espace Membres" />
             </form>
           </div>
 
           <div class="bMembre">
-            <form class="viewMem" action="../login/logout.php">
+            <form class="viewMem" action="logout.php">
               <input class="btn btn-lg btn-block" id="inBuMem" type="submit" value="Deconnection" />
             </form>
           </div>

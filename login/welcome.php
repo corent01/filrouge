@@ -15,13 +15,13 @@ if(!$_SESSION['email'])
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link type="text/css" rel="stylesheet" href="bootstrap-3.2.0-dist\css\bootstrap.css">
     <title>Rotary MEMBERS-Bienvenue</title>
-    <link rel="stylesheet" href="../Rotary Mons/css/main.css">
-    <link rel="stylesheet" href="../Rotary Mons/css/base.css">
-    <link rel="stylesheet" href="./loginstyle.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="loginstyle.css">
     <!-- favicons
       ================================================== -->
-    <link rel="shortcut icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
-    <link rel="icon" href="../Rotary Mons/favicon2.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="../favicon2.ico" type="image/x-icon">
+    <link rel="icon" href="../favicon2.ico" type="image/x-icon">
 </head>
 <body id="bodyWel">
 
@@ -31,7 +31,7 @@ if(!$_SESSION['email'])
   <header class="s-header">
 
     <div class="header-logo">
-      <a class="site-logo" href="../Rotary Mons/index.html" ><img src="../Rotary Mons/images/logo.png" alt="Homepage"><span class="entete">Espace Membres</span></a>
+      <a class="site-logo" href="../index.html" ><img src="../images/logo.png" alt="Homepage"><span class="entete">Espace Membres</span></a>
 
     </div>
 
@@ -41,11 +41,11 @@ if(!$_SESSION['email'])
 
   <!-- home
     ================================================== -->
-  <section id="home" class="s-home target-section" data-parallax="scroll" src="../Rotary Mons/images/rotary-logo-text.svg" class="responsive">
+  <section id="home" class="s-home target-section" data-parallax="scroll" src="../images/rotary-logo-text.svg" class="responsive">
 
 
     <div class="overlay"></div>
-    <div class="shadow-overlay"><img src="../Rotary Mons/images/rotary-logo-text.svg" alt="" class="responsive"></div>
+    <div class="shadow-overlay"><img src="../images/rotary-logo-text.svg" alt="" class="responsive"></div>
 
     <div class="home-content">
 
